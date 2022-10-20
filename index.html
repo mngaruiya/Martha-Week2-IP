@@ -2,70 +2,97 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
- <title>Akan Names-Martha</title>
+    <meta charset="utf-8">
+    <title>Akan Names-Martha</title>
 </head>
 
 <body>
-   <h1>The Akan name generator!</h1>
-  <p>The Akan people of Ghana have a culture of naming their children where the children are given names basing on
-    day of the week they were born and the
-    order in which they were born.This web application takes your birthday details and calculates the day of the
-    week you
-    were born and then depending on your gender, outputs your Akan Name.<a class="research"
-      href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">Akan names</a> are derived from Ghanian
-    culture.This naming culture is mostly done in West Africa. Diverse ethnicities
-    have variants and meanings as a symbol of cultural integrity and ancestral affiliation.</p>
-  <P>The Akan people use the Kwa language group's system of timekeeping, which is based on a six-day week
-    ('nnanson'), with the seventh day inclusive. Children are given their first names as a 'day name'. This name
-    corresponds to the day of the week in which they were born. </p>
-  <p>This is a web application will help you find out your Akan name!!!All you have to do is,fill the form below and
-    clicking the generate name button.  </p>
+    <h1>The Akan name generator!</h1>
+    <p>The Akan people of Ghana have a culture of naming their children where the children are given names basing on
+        day of the week they were born and the
+        order in which they were born.This web application takes your birthday details and calculates the day of the
+        week you
+        were born and then depending on your gender, outputs your Akan Name.<a class="research"
+            href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">Akan names</a> are derived from Ghanian
+        culture.This naming culture is mostly done in West Africa. Diverse ethnicities
+        have variants and meanings as a symbol of cultural integrity and ancestral affiliation.</p>
+    <P>The Akan people use the Kwa language group's system of timekeeping, which is based on a six-day week
+        ('nnanson'), with the seventh day inclusive. Children are given their first names as a 'day name'. This name
+        corresponds to the day of the week in which they were born. </p>
+    <p>This is a web application will help you find out your Akan name!!!All you have to do is,fill the form below and
+        clicking the generate name button. </p>
 
-  <p>Here are some Ghanaian Akan Names</p>
+    <p>Here are some Ghanaian Akan Names</p>
 
-  <div class="row">
-    <div class="col-md-6">
-      <ul>
-        <h3>Male</h3>
-        <li>Sunday: Kwasi</li>
+    <div class="row">
+        <div class="col-md-6">
+            <ul>
+                <h3>Male</h3>
+                <li>Sunday: Kwasi</li>
 
-        <li>Monday: Kwadwo</li>
+                <li>Monday: Kwadwo</li>
 
-        <li>Tuesday: Kwabena</li>
+                <li>Tuesday: Kwabena</li>
 
-        <li>Wednesday: Kwaku</li>
+                <li>Wednesday: Kwaku</li>
 
-        <li>Thursday: Yaw</li>
+                <li>Thursday: Yaw</li>
 
-        <li>Friday: Kofi</li>
+                <li>Friday: Kofi</li>
 
-        <li>Saturday: Kwame</li>
-      </ul>
+                <li>Saturday: Kwame</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+
+            <ul>
+                <h3>Female</h3>
+                <li>Sunday: Akosua</li>
+
+                <li>Monday: Adwoa</li>
+
+                <li>Tuesday: Abenaa</li>
+
+                <li>Wednesday: Akua</li>
+
+                <li>Thursday: Yaa</li>
+
+                <li>Friday: Afua</li>
+
+                <li>Saturday: Ama</li>
+            </ul>
+        </div>
     </div>
-    <div class="col-md-6">
+    <p>PLEASE ENTER YOUR BIRTHDAY AND GENDER HERE</p>
 
-      <ul>
-        <h3>Female</h3>
-        <li>Sunday: Akosua</li>
+    <form method="post" class="akan_name" id="akan-form">
+        <div class="form-group">
+            <label class="control-label" for="date">Date of Birth:</label>
+            <input class="form-control col-sm-8" id="date" name="date" placeholder="MM/DD/YYY" type="date" />
 
-        <li>Monday: Adwoa</li>
+            <label class="control-label d-block" for="gender">Select your Gender</label>
 
-        <li>Tuesday: Abenaa</li>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" id="male" value="male" name="gender">
+                <label class="custom-control-label" for="male">Male</label>
+            </div>
 
-        <li>Wednesday: Akua</li>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" id="female" value="female" name="gender">
+                <label class="custom-control-label" for="female">Female</label>
 
-        <li>Thursday: Yaa</li>
+            </div>
+            <div class="form-group">
 
-        <li>Friday: Afua</li>
-
-        <li>Saturday: Ama</li>
-      </ul>
-    </div>
-  </div>
-  <p>PLEASE ENTER YOUR BIRTHDAY AND GENDER HERE</p>
+                <button class="btn btn-primary " name="submit" id="submit" type="button">Get Akan Name</button>
+            </div>
+            <div id="akan-name"></div>
+    </form>
 
 
-  </body>
+
+
+
+</body>
 
 </html>
