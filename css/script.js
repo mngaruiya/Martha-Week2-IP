@@ -52,7 +52,7 @@
         } else {
             document.getElementById("akan-name").innerHTML = `
             <div class="alert alert-danger" role="alert">
-                <p class="text-sm">Select options to learn your Akan name</p>
+                <p class="text-sm">Please Select Options To Display Your Akan Name</p>
             </div> 
         `;
         }
