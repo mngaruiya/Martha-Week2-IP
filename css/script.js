@@ -34,8 +34,8 @@
 
             let day_of_week = Math.trunc(dw);
 
-            let male_names = ["Kwasi","Kwadwo","Kwabena","Kwahu","Yaw","Kofi","Kwame"];
-            let female_names = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+            let male_names = ["Kwasi", "Kwadwo", "Kwabena", "Kwahu", "Yaw", "Kofi", "Kwame"];
+            let female_names = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
             let akan_name = "";
             if (gender == "male") {
