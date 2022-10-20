@@ -33,6 +33,7 @@
 
             let day_of_week = Math.trunc(dw);
 
+            const male_names = ["Kwasi","Kwadwo","Kwabena","Kwahu","Yaw","Kofi","Kwame"];
+            const female_names = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
-
-    }
+           
