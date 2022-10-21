@@ -8,7 +8,7 @@ This name generator takes a user's birthday(year, month and date) and gender inf
 
 ## Contact
 Martha Ngaruiya - rimash1563@gmail.com
-##Live Link:
+## Live Link:https://mngaruiya.github.io/Martha-Week2-IP/
 
 ## Languages Used/Technologies Used
 HTML
@@ -18,11 +18,8 @@ Javascript
 
 ## Project setup & collaboration
 To get a local copy up of this project, Clone the repo:
-From the parent folder, Akan-names, you can open index.html on your browser
+From the parent folder, Akan-names, you can open index.html on your browser https://mngaruiya.github.io/Martha-Week2-IP/
 Collaborate on this project by forking this repository to your github, clone it and create a new branch to make changes on, then push the changes to your remote repository
-
-[git clone] (https://github.com/KarenNgala/Akan-names.git)
-
 
 
 ## Copyright & License
